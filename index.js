@@ -6,13 +6,16 @@ function isPalindrome(word) {
 
 /* 
   Add your pseudocode here
-  create an argument for the function (word)
-  declare a variable reversedWord and attach split, reverse, and join methods
-  compare the argument to the variable and return true or false depending on the feedback
+  create the function isPalindrome and specify its argument
+  declare a new variable, reversedWord, and assign it to the argument acted on by split(), reverse(), and join() methods
+  return true only if the argument is loosely equivalent to reversedWord
 */
 
 /*
   Add written explanation of your solution here
+  the function takes an argument and assigns it to the reversedWord variable. 
+  the input is then split, reversed, and joined using split(), reverse(), and join()
+  the resturn function returns a boolean expression. True is the reversedWord loosely matches the input, and false if vice versa
 */
 
 // You can run `node index.js` to view these console logs
